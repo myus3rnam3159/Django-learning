@@ -1,2 +1,2 @@
 * Link lý thuyết:
-  https://www.linkedin.com/learning/paths/become-a-programmer-foundations
+  https://docs.google.com/document/d/1mpbyCfVyAutreGgSIx_VcppCrQjDWeH2dlGpm_4MVp4/edit?usp=sharing
