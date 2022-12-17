@@ -15,3 +15,9 @@ class Pet(models.Model):
 
 class Vaccine(models.Model):
     name = models.CharField(max_length=50)
+
+    #Override phương thức của Model
+    #Django sẽ thể hiện tên vaccine tương ứng với object
+    #Chỉ cần thay đổi trong một class thì các class kế thừa Model cũng bị ảnh hưởng
+    def __str__(self):
+        return self.name
