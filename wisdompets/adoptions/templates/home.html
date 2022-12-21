@@ -1,5 +1,5 @@
 <div>
-    {% for pet in pets %} <!--pets tương ứng tham số được gửi trong hàm trong file view-->
+    {% for pet in pets %}
         <div class="petname">
             <a href="{% url 'pet_detail'}">
                 <h3>{{ pet.name | capfirst }}</h3>
